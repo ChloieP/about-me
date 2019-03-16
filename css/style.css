@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 25px;
+    background-image: ("./img/No Spiders.png");
+    background-size: 150px;
+    width: 700px;
+    height: 887px; 
+    background-color: #EFDEFE;}
+h1, h2 {
+    color:  #535253;
+    text-align: left;}
+p {
+    color: #393939;
+    text-indent: 20px;
+}
