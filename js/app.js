@@ -1,15 +1,22 @@
 /* eslint-disable no-unused-vars */
 'use strict';
 var score = 0;
+// eslint-disable-next-line no-redeclare
+var name = prompt('Hello! What is your name?');
+gamerName();
+likesSpidersSnakes();
+beachForSure();
+lovesFishing();
+leftyRightyBrain();
+notWonderWoman();
+blessedTraveler();
+colorWheel();
+thanksForPlaying();
 
-// eslint-disable-next-line no-unused-vars
 function gamerName(){
-  var name = prompt('Hello! What is your name?');
-  console.log('Game Player Name');
   alert(name + ', thanks for stopping by! Let\'s play a quick game to see how well you know me. The first 5 questions are yes/no.');
 }
 
-// eslint-disable-next-line no-unused-vars
 function likesSpidersSnakes(){
   var likesSpidersSnakes = prompt('I really like spiders and snakes. Do you agree?').toLowerCase();
   if(likesSpidersSnakes === 'no' || likesSpidersSnakes === 'n') {
@@ -90,19 +97,19 @@ function colorWheel() {
 
   while(forceTrue === true){
     var guessColors = prompt('Are you able to name at least one of my 3 favorite colors. You have 6 attempts.').toLowerCase();
-    if(guessColors === favColors [0] || guessColors === favColors [1] || guessColors === favColors [2]){
+    if(guessColors === favColors[0] || guessColors === favColors[1] || guessColors === favColors[2]){
       alert(name + ', I am amazed you guessed the right color! My favorite 3 colors are highly saturated orange, purple, and turquoise.');
       score++;
       forceTrue = false;
     }
-    else if (roundsColor >= 6)
+    else if (roundsColor >= 6) {
       alert('Sorry, you lose! My favorite 3 colors are highly saturated orange, purple, and turquoise.');
-    roundsColor++;
-    forceTrue = false;
+      forceTrue = false;
+    }
+    else{roundsColor++;}
+    console.log(favColors[0]);
+    console.log(favColors[2]);
   }
-
-  console.log(favColors[0]);
-  console.log(favColors[2]);
 }
 
 function thanksForPlaying(){
