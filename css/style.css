@@ -1,26 +1,48 @@
 
 body {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Helvetica', 'Calibri', sans-serif;
     background-image: ("./img/Header.jpg");
     background-color: rgb(254, 254, 255);
     background-position: center;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;}
+    margin-left: 80px;
+    line-height: 1.6em
+}
 
 h1 {
+    font-family: 'Amaranth', sans-serif;
     color:  #535253;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;}
+    margin: 100px 150px 100px 80px;
+}
 
 h2 {
+    font-family: 'Amaranth', sans-serif;
     color:  #535253;
-    text-align: left;}
+    text-align: left;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Amaranth', sans-serif;
+    color:  #535253;
+    text-align: left;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
+
+h4 {
+    font-family: 'Amaranth', sans-serif;
+    color:  #535253;
+    text-align: left;
+    padding-top: 20px;
+}
 
 p {
     color: #393939;
-    text-indent: 10px;
+}
+
+#questionPrompt{
+    margin-bottom: 15px;
 }
