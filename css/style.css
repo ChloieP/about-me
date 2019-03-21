@@ -1,11 +1,20 @@
+
 body {
-    font-family: Helvetica, sans-serif;
-    background-image: ("./img/No Spiders.png");
-    background-color: #EFDEFE;}
+    font-family: 'Amaranth', sans-serif;
+    background-image: ("./img/Background-of-Hope-Painting.JPG");
+    background-color: rgb(254, 254, 255);
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;}
 
 h1 {
     color:  #535253;
-    text-align: center;}
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;}
 
 h2 {
     color:  #535253;
