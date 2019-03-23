@@ -4,7 +4,6 @@ body {
     background-image: ("./img/Header.jpg");
     background-color: rgb(254, 254, 255);
     background-position: center;
-    margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
@@ -45,4 +44,11 @@ p {
 
 #questionPrompt{
     margin-bottom: 15px;
+}
+#spiderPhoto{
+    text-align: right;
+}
+
+section {
+    margin-top: 75px;
 }
