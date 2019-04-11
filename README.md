@@ -9,3 +9,5 @@ Question 7 is a word response with 3 possible correct answers. First letter capi
 Good luck!
 
 For questions regarding this About Me quiz, contact the developer at chloieparsons@gmail.com with About Me Quiz in the subject line.
+
+This quiz is deployed on Netlify at https://zealous-varahamihira-2403d2.netlify.com/.
